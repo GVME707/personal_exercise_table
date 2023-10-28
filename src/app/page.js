@@ -38,9 +38,7 @@ export default function Home() {
   console.log(selectedDay);
   return (
     <>
-      <header className="text-4xl font-bold mt-8 text-center">
-        7 Days Workout Plan
-      </header>
+      
       <main className="container mx-auto p-4 md:p-4">
         {/* Dropdown for selecting day */}
         <div className="flex flex-col justify-center items-center flex-none m-4">
@@ -122,16 +120,7 @@ export default function Home() {
             ))}
         </div>
       </main>
-      <footer className="flex justify-center items-center h-24 border-t">
-        <Link
-          href="https://www.instagram.com/vanatsanan.php/"
-          className="flex justify-center items-center"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by @vanatsanan.php
-        </Link>
-      </footer>
+      
     </>
   );
 }
